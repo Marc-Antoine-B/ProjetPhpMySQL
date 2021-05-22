@@ -1,0 +1,69 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#header{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    flex-basis: 100%;
+    order :1;
+    background-image: url("Image/ciel_bleu.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+
+#menu {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display: flex;
+    background-image: url("Image/K1Slj.png");
+    order:2;
+    color : black;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+
+#corps {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url("Image/superfly.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order:3;
+    color : black;
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+
+
+#footer{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    order:4;
+    flex-basis: 100%;
+    background-image: url("Image/ciel_bleu.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+h2{
+    margin-right: 50px;
+}
+#fusion
+{
+    flex-direction: row;
+    display:flex;
+    order:3;
+}

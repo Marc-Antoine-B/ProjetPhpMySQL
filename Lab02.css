@@ -1,0 +1,58 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#header{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    flex-basis: 100%;
+    order :1;
+    background-image: url("Image/ciel_bleu.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+
+}
+#corps {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url("Image/superfly.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order:2;
+    color : black;
+    flex-basis: 100%;
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+#txtNom{
+    display:flex;
+    flex-basis: 100%;
+}
+#txtMdp{
+    display:flex;
+    flex-basis: 100%;
+}
+
+#footer{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    order:3;
+    flex-basis: 100%;
+    background-image: url("Image/ciel_bleu.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+h2{
+    margin-right: 50px;
+}

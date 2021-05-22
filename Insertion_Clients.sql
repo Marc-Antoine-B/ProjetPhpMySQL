@@ -1,0 +1,36 @@
+##INSERTION DES DONNÉES DANS LA TABLE tblClient
+
+USE BD_Aeroport_2018;
+
+INSERT INTO tblClient(nomCLient, prenomClient, noTelClient, adresseClient, escompte) VALUES
+("Leblond","Marcel","4185479698","265 de la Tamise Jonquiere G7S 2H4",1.5),
+("Labbe","David","4185424678","2732 St-Hubert Jonquiere G7X 3C6",2.5),
+("Boivin","Francis","4185480008","12 Laure Jonquiere G7S 6J8",2.5),
+("Tremblay","Maxime","41854912548","158 du Barrage Chicoutimi G7H 2H4",1.5),
+("Tremblay","Sebastien","4185437325","2558 Sauve Chicoutimi G7G 3B6",2.5),
+("Paquet","David","4185439643","652 Drean Chicoutimi G7K 2H5",2.5),
+("Simard","Gabriel","41854569857","147 David Chicoutimi G7G 4K9",2.5),
+("Simard","Benoit","4186935258","10 Riverin Chicoutimi G7H 5V4",2.5),
+("Tremblay","Jeremie","4186952158","1402 de la Meuse Jonquiere G7X 9J4",2.5),
+("Sansoucy","Timothy","4185425698","569 de la Picardie Jonquiere G7X 2R5",1.5),
+("St-Gelais","Guillaume","4186935698","65 Ste-Marie Chicoutimi G7G 9H4",2.5),
+("Mailloux-Brochu","Jacob","4185482254","25 Castner Jonquiere G7S 7H6",1.5),
+("Cote","Raphael","4186998585","453 Coulomb Jonquiere G7S 3Z6",2.5),
+("Pelletier","Olivier","4185425698","26 St-Alexandre Jonquiere G7X 2J8",2.5),
+("Kerouack","Elodie","4185489998","1222 St-Georges Jonquiere G7S 2T4",2.5),
+("Girard","Simon","4185471452","102 Racine Jonquiere G7X 5F4",0.5),
+("Perron","Olivier","4185451045","101 Begin Chicoutimi G7H 8S3",2.5),
+("Munger","Louis-Alexandre","4185497711","158 St-Maurice Chicoutimi G7G 3N2",2.5),
+("Pedneault","Alex","4185458585","265 des Maristes Chicoutimi G7H 9M7",0.5),
+("Tremblay","Marc-Antoine","4185471458","142 de Vienne Jonquiere G7X 3D4",2.5),
+("Savard","David","4185482325","1998 Mellon Jonquiere G7S 8J8",2.5),
+("Larouche","Nicolas","4188158525","1232 boul. du Royaume Jonquiere G7X 6G5",2.5),
+("Larouche","Dominic","4185502158","1323 Desgagnes Falardeau G0V 2C0",2.5),
+("Rollin","Kevin","4185482232","196 Villeneuve Jonquiere G7S 3L8",2.5),
+("Boucher","Vincent","4185445859","165 3ieme Rue La Baie G7B 6F4",0.5),
+("Desbiens","Charles","4185436548","175 Vallieres Chicoutimi G7G 8J8",2.5),
+("Morin","Francois","4185491234","444 Jolliet Chicoutimi G7H 4J7",2.5),
+("Simard","Robin","4188154544","111 Principale Begin G0G 2V0",2.5),
+("Honorine","Sebastien","4185479798","222 St-Antoine Jonquiere G7X 6N8",2.5),
+("Duperre","Tommy","4185452558","666 Jacques-Cartier est Chicoutimi G7H 2F4",2.5),
+("Montpetit","Michel","4185481008","777 Dubose Jonquiere G7S 3D4",0.5);
