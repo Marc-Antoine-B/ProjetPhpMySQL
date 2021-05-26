@@ -6,11 +6,12 @@ try
 {
     $con = new PDO("mysql:host=$servername;dbdname=aeroport",$username,$password);
     $con = setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo"Connexion Réussi";
+    echo"Inscription Réussi";
 }
 catch(PDOException $e)
 {
-    die('Connexion échouée. Erreur :'.$e->getMessage());
+    echo "Réessayer";
+    header("Location : Inscription.php");
 }
 
 ?>

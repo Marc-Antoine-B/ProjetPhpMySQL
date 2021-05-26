@@ -5,12 +5,11 @@ $password = "cegepjon_1933191";
 try
 {
     $con = new PDO("mysql:host=$servername;dbdname=aeroport",$username,$password);
-    $con = setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo"Connexion Réussi";
+    $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(PDOException $e)
 {
-    die('Connexion échouée. Erreur :'.$e->getMessage());
+    header("Location : Inscription.php");
 }
 
 $nom = $con->query('SELECT nomUsager FROM tblUsagers');

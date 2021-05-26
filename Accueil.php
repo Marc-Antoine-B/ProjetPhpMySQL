@@ -5,7 +5,7 @@ $_SESSION['txtNom'];
 $_SESSION['txtMdp'];
 if($_SESSION['txtNom'] == null or $_SESSION['txtMdp']== null)
 {
-    echo header("Location: Connexion.php");;
+    header("Location: Connexion.php");;
 }
 
 $servername = "cegepjon_1933191";
@@ -18,7 +18,7 @@ try
     echo"Connexion Réussi";
 }
 catch(PDOException $e) {
-    die('Connexion échouée. Erreur :' . $e->getMessage());
+    header("Location : Inscription.php");
 }
 $nom = $con->query('SELECT nomUsager FROM tblUsagers');
 $password = $con->query('SELECT pwdUsager FROM tblUsagers');
@@ -30,7 +30,7 @@ if($nom==true && $password==true)
     echo "Bienvenue $prenom $nomUti.";
 }
 else
-    echo header("Location: register.php");
+    header("Location : Inscription.php");
 
 
 ?>
